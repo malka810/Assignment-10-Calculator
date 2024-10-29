@@ -1,0 +1,91 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f3f7;
+}
+
+.container {
+  position: relative;
+  max-width: 320px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: 2px solid;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #000e1a;
+    background-color: #eaecf3;
+}
+
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button {
+    padding: 15px;
+    border-radius: 6px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: #6C757D; 
+    color: #FFFFFF; 
+}
+
+.buttons button:hover {
+    background-color: #5A6268; 
+}
+
+.buttons button.operator {
+    background-color: #17A2B8; 
+}
+
+.buttons button.operator:hover {
+    background-color: #138496; 
+}
+
+.buttons button:nth-child(1) { 
+    background-color: #FF4136; 
+}
+
+.buttons button:nth-child(1):hover {
+    background-color: #C0392B; 
+}
+
+.buttons button:nth-child(2) { 
+    background-color: #FF851B; 
+}
+
+.buttons button:nth-child(2):hover {
+    background-color: #E67E22;
+}
+
+.buttons button:last-child { 
+    background-color: #28A745; 
+}
+
+.buttons button:last-child:hover {
+    background-color: #218838; 
+}
